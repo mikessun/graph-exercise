@@ -2,6 +2,7 @@ package mike.exercise.graph.core.impl;
 
 import mike.exercise.graph.ResultWrapper;
 import mike.exercise.graph.core.abstraction.UndirectedGraph;
+import mike.exercise.graph.core.abstraction.WeightedGraph;
 import mike.exercise.graph.core.exception.NotWeightEdgeException;
 import org.junit.Before;
 import org.junit.Test;
@@ -156,11 +157,11 @@ public class UndirectedGraphTest {
         assertTrue(graph.containsVertex(resultWrapper.getV()[0]));
     }
 
-    @Test(expected = NotWeightEdgeException.class)
+    @Test
     public void testGetEdgeWeight() {
         ResultWrapper resultWrapper = buildUndirectedTestVertexGraph(graph);
         assertTrue(graph.containsVertex(resultWrapper.getV()[0]));
-        graph.getEdgeWeight(resultWrapper.getE());
+        assertTrue(graph.getEdgeWeight(resultWrapper.getE()) == WeightedGraph.DEFAULT_EDGE_WEIGHT);
     }
 
 }

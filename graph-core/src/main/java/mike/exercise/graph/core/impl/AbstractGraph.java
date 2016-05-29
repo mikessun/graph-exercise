@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import mike.exercise.graph.core.abstraction.DirectedGraph;
 import mike.exercise.graph.core.abstraction.Graph;
 import mike.exercise.graph.core.abstraction.VertexEdgeContainer;
+import mike.exercise.graph.core.abstraction.WeightedGraph;
 import mike.exercise.graph.core.exception.*;
 import mike.exercise.graph.core.util.TypeUtil;
 import org.apache.commons.collections.CollectionUtils;
@@ -192,7 +193,7 @@ public abstract class AbstractGraph<V, E> implements Graph<V, E> {
         if (containsVertex(v)) {
             return true;
         }
-        throw new VertexNotExistException();
+        throw new VertexNotExistException("vertex: " + v);
     }
 
     @Override
@@ -242,11 +243,11 @@ public abstract class AbstractGraph<V, E> implements Graph<V, E> {
     @Override
     public double getEdgeWeight(@NonNull E e) {
         Edge edge = edgeMap.get(e);
-        if (edge.getClass().isAssignableFrom(WeightedEdge.class)) {
+        if (WeightedEdge.class.isAssignableFrom(edge.getClass())) {
             WeightedEdge we = TypeUtil.uncheckedCast(edge, null);
             return we.getWeight();
         }
-        throw new NotWeightEdgeException();
+        return WeightedGraph.DEFAULT_EDGE_WEIGHT;
     }
 
     /**

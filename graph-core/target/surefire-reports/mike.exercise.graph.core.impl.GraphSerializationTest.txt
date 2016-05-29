@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: mike.exercise.graph.core.impl.GraphSerializationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.336 sec - in mike.exercise.graph.core.impl.GraphSerializationTest

@@ -40,11 +40,6 @@ public class UndirectedGraphImpl<V, E> extends AbstractGraph<V, E> implements Un
         getUndirectedVertexEdgeContainer(getSourceVertexForEdge(e)).removeEdge(e);
     }
 
-    @Override
-    public double getEdgeWeight(E e) {
-        throw new NotWeightEdgeException();
-    }
-
     private UndirectedVertexEdgeContainer getUndirectedVertexEdgeContainer(V v) {
         return TypeUtil.uncheckedCast(getEdgeContainer(v, UndirectedVertexEdgeContainer.class), null);
     }

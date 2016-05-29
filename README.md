@@ -14,6 +14,9 @@ Current Snapshot version can be branched from the `master` branch are available 
 
 This exercise only implemented undirected graph.
 
+### Build & Run Tests
+#### Prerequisites:
+ JDK 1.8
 #### How To Run Tests
 * checkout the source codes
     git clone https://github.com/mikessun/graph-lib.git
