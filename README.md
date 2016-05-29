@@ -1,6 +1,8 @@
 ## Sample Graph Data Structure Library
 
-This is a simple graph data strucuture library implemented in Java. The library can be used in certain use cases.
+This is a graph data strucuture library implemented in Java. The library can be used in certain use cases.
+
+Currently the lib only implements undirected unweighted graph. The directed and directed weighted graph are still under implemented.
 
 ### Latest Release
 
