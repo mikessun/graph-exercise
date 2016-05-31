@@ -21,7 +21,7 @@ This exercise only implemented undirected graph.
  JDK 1.8
 #### How To Run Tests
 * checkout the source codes
-    git clone https://github.com/mikessun/graph-lib.git
+    git clone https://github.com/mikessun/graph-exercise.git
 * run maven full build to run all junit test cases
     cd graph-lib && mvn clean install && ../
 		
