@@ -3,7 +3,7 @@ package mike.exercise.graph.core.impl;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
-import mike.exercise.graph.core.abstraction.WeightedGraph;
+import mike.exercise.graph.core.interfaces.WeightedGraph;
 
 /**
  * Weighted edge type

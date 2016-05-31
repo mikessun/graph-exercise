@@ -1,9 +1,9 @@
 package mike.exercise.graph;
 
 import com.google.common.base.Supplier;
-import mike.exercise.graph.core.abstraction.DirectedGraph;
-import mike.exercise.graph.core.abstraction.Graph;
-import mike.exercise.graph.core.abstraction.UndirectedGraph;
+import mike.exercise.graph.core.interfaces.DirectedGraph;
+import mike.exercise.graph.core.interfaces.Graph;
+import mike.exercise.graph.core.interfaces.UndirectedGraph;
 import mike.exercise.graph.core.impl.DirectedGraphImpl;
 import mike.exercise.graph.core.impl.UndirectedGraphImpl;
 

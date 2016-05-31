@@ -1,4 +1,4 @@
-package mike.exercise.graph.core.abstraction;
+package mike.exercise.graph.core.interfaces;
 
 import java.io.Serializable;
 import java.util.Collection;

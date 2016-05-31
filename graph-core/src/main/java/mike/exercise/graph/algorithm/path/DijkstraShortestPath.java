@@ -1,7 +1,6 @@
 package mike.exercise.graph.algorithm.path;
 
-import com.google.common.base.Supplier;
-import mike.exercise.graph.core.abstraction.Graph;
+import mike.exercise.graph.core.interfaces.Graph;
 
 import java.util.*;
 

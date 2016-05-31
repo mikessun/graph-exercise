@@ -1,6 +1,6 @@
 package mike.exercise.graph.core.helper;
 
-import mike.exercise.graph.core.abstraction.VertexEdgeContainer;
+import mike.exercise.graph.core.interfaces.VertexEdgeContainer;
 
 import java.util.Collection;
 import java.util.Collections;

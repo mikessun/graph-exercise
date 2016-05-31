@@ -1,7 +1,7 @@
 package mike.exercise.graph.core.impl;
 
 import com.google.common.base.Supplier;
-import mike.exercise.graph.core.abstraction.WeightedGraph;
+import mike.exercise.graph.core.interfaces.WeightedGraph;
 
 
 /**

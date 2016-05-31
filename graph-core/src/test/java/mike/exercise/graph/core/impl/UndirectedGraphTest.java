@@ -1,9 +1,8 @@
 package mike.exercise.graph.core.impl;
 
 import mike.exercise.graph.ResultWrapper;
-import mike.exercise.graph.core.abstraction.UndirectedGraph;
-import mike.exercise.graph.core.abstraction.WeightedGraph;
-import mike.exercise.graph.core.exception.NotWeightEdgeException;
+import mike.exercise.graph.core.interfaces.UndirectedGraph;
+import mike.exercise.graph.core.interfaces.WeightedGraph;
 import org.junit.Before;
 import org.junit.Test;
 

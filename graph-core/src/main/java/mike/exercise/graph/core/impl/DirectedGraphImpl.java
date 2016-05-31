@@ -2,7 +2,7 @@ package mike.exercise.graph.core.impl;
 
 import com.google.common.base.Supplier;
 import lombok.extern.slf4j.Slf4j;
-import mike.exercise.graph.core.abstraction.DirectedGraph;
+import mike.exercise.graph.core.interfaces.DirectedGraph;
 import mike.exercise.graph.core.helper.DirectedVertexEdgeContainer;
 import mike.exercise.graph.core.util.TypeUtil;
 

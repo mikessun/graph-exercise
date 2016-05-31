@@ -1,7 +1,7 @@
 package mike.exercise.graph.algorithm.path;
 
 import mike.exercise.graph.TestUtil;
-import mike.exercise.graph.core.abstraction.Graph;
+import mike.exercise.graph.core.interfaces.Graph;
 import org.junit.Before;
 import org.junit.Test;
 

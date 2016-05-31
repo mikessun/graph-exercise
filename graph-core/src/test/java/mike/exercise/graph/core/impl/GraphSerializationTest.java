@@ -2,9 +2,8 @@ package mike.exercise.graph.core.impl;
 
 import mike.exercise.graph.ResultWrapper;
 import mike.exercise.graph.TestUtil;
-import mike.exercise.graph.core.abstraction.DirectedGraph;
-import mike.exercise.graph.core.abstraction.Graph;
-import mike.exercise.graph.core.abstraction.UndirectedGraph;
+import mike.exercise.graph.core.interfaces.Graph;
+import mike.exercise.graph.core.interfaces.UndirectedGraph;
 import mike.exercise.graph.core.util.TypeUtil;
 import org.junit.Before;
 import org.junit.Test;

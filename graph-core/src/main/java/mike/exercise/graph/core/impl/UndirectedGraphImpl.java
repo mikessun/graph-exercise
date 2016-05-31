@@ -1,8 +1,7 @@
 package mike.exercise.graph.core.impl;
 
 import com.google.common.base.Supplier;
-import mike.exercise.graph.core.abstraction.UndirectedGraph;
-import mike.exercise.graph.core.exception.NotWeightEdgeException;
+import mike.exercise.graph.core.interfaces.UndirectedGraph;
 import mike.exercise.graph.core.helper.UndirectedVertexEdgeContainer;
 import mike.exercise.graph.core.util.TypeUtil;
 

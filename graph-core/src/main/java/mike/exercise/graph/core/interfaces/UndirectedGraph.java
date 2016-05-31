@@ -1,4 +1,4 @@
-package mike.exercise.graph.core.abstraction;
+package mike.exercise.graph.core.interfaces;
 
 /**
  * Undirected graph type

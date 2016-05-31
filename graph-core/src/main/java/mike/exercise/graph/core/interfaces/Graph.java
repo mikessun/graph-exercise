@@ -9,14 +9,14 @@
  * "license.txt" or
  * https://github.com/jrtom/jung/blob/master/LICENSE for a description.
  */
-package mike.exercise.graph.core.abstraction;
+package mike.exercise.graph.core.interfaces;
 
 import java.io.Serializable;
 import java.util.Collection;
 
 
 /**
- * Graph abstraction
+ * Graph interfaces
  */
 public interface Graph<V, E> extends Serializable {
 

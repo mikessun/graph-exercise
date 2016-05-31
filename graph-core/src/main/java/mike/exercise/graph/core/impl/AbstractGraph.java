@@ -3,17 +3,15 @@ package mike.exercise.graph.core.impl;
 import com.google.common.base.Supplier;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
-import mike.exercise.graph.core.abstraction.DirectedGraph;
-import mike.exercise.graph.core.abstraction.Graph;
-import mike.exercise.graph.core.abstraction.VertexEdgeContainer;
-import mike.exercise.graph.core.abstraction.WeightedGraph;
+import mike.exercise.graph.core.interfaces.DirectedGraph;
+import mike.exercise.graph.core.interfaces.Graph;
+import mike.exercise.graph.core.interfaces.VertexEdgeContainer;
+import mike.exercise.graph.core.interfaces.WeightedGraph;
 import mike.exercise.graph.core.exception.*;
 import mike.exercise.graph.core.util.TypeUtil;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * A skeletal implementation of graph type

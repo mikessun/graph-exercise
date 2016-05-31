@@ -1,7 +1,7 @@
 package mike.exercise.graph.algorithm.common;
 
 import lombok.Getter;
-import mike.exercise.graph.core.abstraction.Graph;
+import mike.exercise.graph.core.interfaces.Graph;
 
 import java.util.List;
 
